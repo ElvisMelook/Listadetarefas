@@ -11,12 +11,14 @@ body{
     margin: auto;
     background-color: rgba(191, 246, 246, 0.416);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    justify-content: space-evenly;
     width: 400px;
     height: 500px;
     border-radius: 5px 5px 80px;
-    margin-top: 40px;
     box-shadow: rgba(243, 198, 226, 0.502) 1px 1px 10px;
+    padding: 10px;
 
 }
 h1{
@@ -28,7 +30,7 @@ h1{
 }
 #tarefa{
 
-    margin-top: 2rem;
+    margin: auto;
     padding: 10px;
     width: 15rem;
     box-shadow: rgba(11, 1, 7, 0.285) 1px 1px 10px;
@@ -65,4 +67,17 @@ hr{
 }
 #botao:hover{
     background-color: rgb(81, 25, 237);
+}
+.divinova{
+    width: 100px;
+    min-height: 40px;
+    background-color: aliceblue;
+    
+}
+#geradas{
+    background-color: rgb(21, 125, 215);
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    
 }
