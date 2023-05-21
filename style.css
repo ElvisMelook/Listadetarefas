@@ -11,14 +11,13 @@ body{
     margin: auto;
     background-color: rgba(191, 246, 246, 0.416);
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    justify-content: space-evenly;
+    margin-top: 20px;
     width: 400px;
     height: 500px;
     border-radius: 5px 5px 80px;
     box-shadow: rgba(243, 198, 226, 0.502) 1px 1px 10px;
-    padding: 10px;
+   
 
 }
 h1{
@@ -29,7 +28,7 @@ h1{
     text-shadow:rgba(20, 69, 84, 0.381) 1px 1px 10px  ;
 }
 #tarefa{
-
+    
     margin: auto;
     padding: 10px;
     width: 15rem;
@@ -81,3 +80,29 @@ hr{
     height: 50px;
     
 }
+#conteudo{
+    margin-top: 20px;
+}
+li{
+    color: rgb(59, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border:2px solid cornflowerblue;
+    background-color: rgba(250, 235, 215, 0.377);
+    margin-top: 10px;
+    border-radius:5px 0px 20px 0px ;
+    
+    
+}
+li::first-letter{
+ text-transform: uppercase;
+}
+
+#local{
+    padding: 10px;
+
+}
+
